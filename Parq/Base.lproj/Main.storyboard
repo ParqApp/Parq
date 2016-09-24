@@ -18,18 +18,17 @@
                         <segue destination="jmT-FH-VvM" kind="relationship" relationship="viewControllers" id="WoT-Iz-KOV"/>
                         <segue destination="IpT-pi-AU7" kind="relationship" relationship="viewControllers" id="HXx-Dt-Knc"/>
                         <segue destination="3Jz-6N-jjD" kind="relationship" relationship="viewControllers" id="Cia-OE-Bgz"/>
-                        <segue destination="LN3-qw-Aq5" kind="relationship" relationship="viewControllers" id="kFv-Uj-r6w"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4BZ-1f-b9b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-174" y="68"/>
         </scene>
-        <!--History-->
+        <!--MapNavigationController-->
         <scene sceneID="dIY-3v-OnD">
             <objects>
-                <navigationController title="History" id="jmT-FH-VvM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ZsE-M3-beP"/>
+                <navigationController title="MapNavigationController" id="jmT-FH-VvM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" id="ZsE-M3-beP"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="qGh-F2-ugV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -43,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="304" y="68"/>
         </scene>
-        <!--Map Controller-->
+        <!--MapViewController-->
         <scene sceneID="5NS-AD-3r6">
             <objects>
-                <viewController id="TUy-GV-lb8" customClass="MapController" customModule="Parq" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="MapViewController" id="TUy-GV-lb8" customClass="MapController" customModule="Parq" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IWv-X0-wnb"/>
                         <viewControllerLayoutGuide type="bottom" id="4Ff-Da-uj8"/>
@@ -66,7 +65,7 @@
         <scene sceneID="saN-Ws-01o">
             <objects>
                 <navigationController title="Profile" id="IpT-pi-AU7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="MlP-2e-U1H"/>
+                    <tabBarItem key="tabBarItem" title="Profile" id="MlP-2e-U1H"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XTV-IS-gwR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -103,7 +102,7 @@
         <scene sceneID="3aR-RP-pZs">
             <objects>
                 <navigationController title="Detail" id="3Jz-6N-jjD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ipb-eS-xxU"/>
+                    <tabBarItem key="tabBarItem" title="History" id="ipb-eS-xxU"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4E5-0F-SOs">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -135,43 +134,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oWJ-BY-jDo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-174" y="1590"/>
-        </scene>
-        <!--MapNavigationController-->
-        <scene sceneID="WzX-qX-GRP">
-            <objects>
-                <navigationController title="MapNavigationController" id="LN3-qw-Aq5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="BA3-ed-6oN"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="T7P-18-NiK">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="ZPu-a9-PhQ" kind="relationship" relationship="rootViewController" id="WRB-zg-6uG"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1ue-cW-Rfn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="304" y="816"/>
-        </scene>
-        <!--MapViewController-->
-        <scene sceneID="P9W-Ee-enb">
-            <objects>
-                <viewController title="MapViewController" id="ZPu-a9-PhQ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="us2-W3-L99"/>
-                        <viewControllerLayoutGuide type="bottom" id="dE3-gu-0qr"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Enr-Yt-BXd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="mOm-Qo-aQ4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="w3B-f0-ahq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="802" y="816"/>
         </scene>
     </scenes>
 </document>
