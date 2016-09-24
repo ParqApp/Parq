@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F8547964121EA587AF50572 /* Pods_ParqTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2912C10381C63C26DF1ACE54 /* Pods_ParqTests.framework */; };
+		8E5C99FFEA5596236D38D530 /* Pods_ParqUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88E5CBFC3AB937F994F6471 /* Pods_ParqUITests.framework */; };
+		C05F23BF2FADA54E05824DB6 /* Pods_Parq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B645201FAE22136C0A1E4BD0 /* Pods_Parq.framework */; };
 		EB0AC5A91D96D34000771A5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0AC5A81D96D34000771A5F /* AppDelegate.swift */; };
 		EB0AC5AB1D96D34000771A5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0AC5AA1D96D34000771A5F /* ViewController.swift */; };
 		EB0AC5AE1D96D34000771A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0AC5AC1D96D34000771A5F /* Main.storyboard */; };
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2701EBBAC7F7F367D38E7078 /* Pods-Parq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parq/Pods-Parq.debug.xcconfig"; sourceTree = "<group>"; };
+		2912C10381C63C26DF1ACE54 /* Pods_ParqTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParqTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A29D672389C5A708BFF26E8 /* Pods-ParqTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParqTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParqTests/Pods-ParqTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D126380AAFC80FB0B5A858C /* Pods-Parq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parq.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parq/Pods-Parq.release.xcconfig"; sourceTree = "<group>"; };
+		4EF03B5FA505056B23664A97 /* Pods-ParqUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParqUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParqUITests/Pods-ParqUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		532FB3DA3822EDD588CD0574 /* Pods-ParqTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParqTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParqTests/Pods-ParqTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1721F02F61BC1F623444B53 /* Pods-ParqUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParqUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParqUITests/Pods-ParqUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B645201FAE22136C0A1E4BD0 /* Pods_Parq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88E5CBFC3AB937F994F6471 /* Pods_ParqUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParqUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0AC5A51D96D34000771A5F /* Parq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parq.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0AC5A81D96D34000771A5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB0AC5AA1D96D34000771A5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05F23BF2FADA54E05824DB6 /* Pods_Parq.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F8547964121EA587AF50572 /* Pods_ParqTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E5C99FFEA5596236D38D530 /* Pods_ParqUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3BFE7C1C133FEF209798418 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2701EBBAC7F7F367D38E7078 /* Pods-Parq.debug.xcconfig */,
+				4D126380AAFC80FB0B5A858C /* Pods-Parq.release.xcconfig */,
+				4A29D672389C5A708BFF26E8 /* Pods-ParqTests.debug.xcconfig */,
+				532FB3DA3822EDD588CD0574 /* Pods-ParqTests.release.xcconfig */,
+				4EF03B5FA505056B23664A97 /* Pods-ParqUITests.debug.xcconfig */,
+				A1721F02F61BC1F623444B53 /* Pods-ParqUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0500607A1620197392C7737 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B645201FAE22136C0A1E4BD0 /* Pods_Parq.framework */,
+				2912C10381C63C26DF1ACE54 /* Pods_ParqTests.framework */,
+				B88E5CBFC3AB937F994F6471 /* Pods_ParqUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB0AC59C1D96D34000771A5F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				EB0AC5BC1D96D34000771A5F /* ParqTests */,
 				EB0AC5C71D96D34000771A5F /* ParqUITests */,
 				EB0AC5A61D96D34000771A5F /* Products */,
+				A3BFE7C1C133FEF209798418 /* Pods */,
+				B0500607A1620197392C7737 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB0AC5CD1D96D34000771A5F /* Build configuration list for PBXNativeTarget "Parq" */;
 			buildPhases = (
+				10FF55A52E61A8610C39E784 /* [CP] Check Pods Manifest.lock */,
 				EB0AC5A11D96D34000771A5F /* Sources */,
 				EB0AC5A21D96D34000771A5F /* Frameworks */,
 				EB0AC5A31D96D34000771A5F /* Resources */,
+				4916FA542870F86553F12A77 /* [CP] Embed Pods Frameworks */,
+				D8861823593D76F9038B26E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB0AC5D01D96D34000771A5F /* Build configuration list for PBXNativeTarget "ParqTests" */;
 			buildPhases = (
+				54943AE5CB9BB6E50539588F /* [CP] Check Pods Manifest.lock */,
 				EB0AC5B51D96D34000771A5F /* Sources */,
 				EB0AC5B61D96D34000771A5F /* Frameworks */,
 				EB0AC5B71D96D34000771A5F /* Resources */,
+				E065650FA83194C2F134AF7E /* [CP] Embed Pods Frameworks */,
+				2AFCE8CEF6C0E011B14649A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB0AC5D31D96D34000771A5F /* Build configuration list for PBXNativeTarget "ParqUITests" */;
 			buildPhases = (
+				0ACF7757494C964DDBA98B9C /* [CP] Check Pods Manifest.lock */,
 				EB0AC5C01D96D34000771A5F /* Sources */,
 				EB0AC5C11D96D34000771A5F /* Frameworks */,
 				EB0AC5C21D96D34000771A5F /* Resources */,
+				73BF69461C93FF767944214B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ACF7757494C964DDBA98B9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		10FF55A52E61A8610C39E784 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2AFCE8CEF6C0E011B14649A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParqTests/Pods-ParqTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4916FA542870F86553F12A77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parq/Pods-Parq-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54943AE5CB9BB6E50539588F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73BF69461C93FF767944214B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParqUITests/Pods-ParqUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8861823593D76F9038B26E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parq/Pods-Parq-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E065650FA83194C2F134AF7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParqTests/Pods-ParqTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB0AC5A11D96D34000771A5F /* Sources */ = {
@@ -399,6 +570,7 @@
 		};
 		EB0AC5CE1D96D34000771A5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2701EBBAC7F7F367D38E7078 /* Pods-Parq.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Parq/Info.plist;
@@ -410,6 +582,7 @@
 		};
 		EB0AC5CF1D96D34000771A5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D126380AAFC80FB0B5A858C /* Pods-Parq.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Parq/Info.plist;
@@ -421,6 +594,7 @@
 		};
 		EB0AC5D11D96D34000771A5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A29D672389C5A708BFF26E8 /* Pods-ParqTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ParqTests/Info.plist;
@@ -433,6 +607,7 @@
 		};
 		EB0AC5D21D96D34000771A5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532FB3DA3822EDD588CD0574 /* Pods-ParqTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ParqTests/Info.plist;
@@ -445,6 +620,7 @@
 		};
 		EB0AC5D41D96D34000771A5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF03B5FA505056B23664A97 /* Pods-ParqUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ParqUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +632,7 @@
 		};
 		EB0AC5D51D96D34000771A5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1721F02F61BC1F623444B53 /* Pods-ParqUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ParqUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +661,7 @@
 				EB0AC5CF1D96D34000771A5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB0AC5D01D96D34000771A5F /* Build configuration list for PBXNativeTarget "ParqTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +670,7 @@
 				EB0AC5D21D96D34000771A5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB0AC5D31D96D34000771A5F /* Build configuration list for PBXNativeTarget "ParqUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				EB0AC5D51D96D34000771A5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
