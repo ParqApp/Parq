@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3FFD42941D97234700230885 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD42931D97234700230885 /* ProfileController.swift */; };
-		3FFD42961D9728D300230885 /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFD42951D9728D300230885 /* profile.jpg */; };
-		3FFD429F1D97306100230885 /* history_360.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFD429C1D97306100230885 /* history_360.png */; };
-		3FFD42A01D97306100230885 /* map_360.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFD429D1D97306100230885 /* map_360.png */; };
-		3FFD42A11D97306100230885 /* profile_360.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFD429E1D97306100230885 /* profile_360.png */; };
 		EB0AC5A91D96D34000771A5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0AC5A81D96D34000771A5F /* AppDelegate.swift */; };
 		EB0AC5AB1D96D34000771A5F /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0AC5AA1D96D34000771A5F /* MapController.swift */; };
 		EB0AC5AE1D96D34000771A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0AC5AC1D96D34000771A5F /* Main.storyboard */; };
@@ -41,10 +37,6 @@
 /* Begin PBXFileReference section */
 		2701EBBAC7F7F367D38E7078 /* Pods-Parq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parq/Pods-Parq.debug.xcconfig"; sourceTree = "<group>"; };
 		3FFD42931D97234700230885 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
-		3FFD42951D9728D300230885 /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = profile.jpg; path = ../../../Desktop/profile.jpg; sourceTree = "<group>"; };
-		3FFD429C1D97306100230885 /* history_360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = history_360.png; path = ../../../Desktop/history_360.png; sourceTree = "<group>"; };
-		3FFD429D1D97306100230885 /* map_360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_360.png; path = ../../../Desktop/map_360.png; sourceTree = "<group>"; };
-		3FFD429E1D97306100230885 /* profile_360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_360.png; path = ../../../Desktop/profile_360.png; sourceTree = "<group>"; };
 		4A29D672389C5A708BFF26E8 /* Pods-ParqTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParqTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParqTests/Pods-ParqTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D126380AAFC80FB0B5A858C /* Pods-Parq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parq.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parq/Pods-Parq.release.xcconfig"; sourceTree = "<group>"; };
 		4EF03B5FA505056B23664A97 /* Pods-ParqUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParqUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParqUITests/Pods-ParqUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,17 +82,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FFD42971D97294400230885 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				3FFD429C1D97306100230885 /* history_360.png */,
-				3FFD429D1D97306100230885 /* map_360.png */,
-				3FFD429E1D97306100230885 /* profile_360.png */,
-				3FFD42951D9728D300230885 /* profile.jpg */,
-			);
-			name = Images;
-			sourceTree = "<group>";
-		};
 		A3BFE7C1C133FEF209798418 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,7 +127,6 @@
 		EB0AC5A71D96D34000771A5F /* Parq */ = {
 			isa = PBXGroup;
 			children = (
-				3FFD42971D97294400230885 /* Images */,
 				EB0AC5A81D96D34000771A5F /* AppDelegate.swift */,
 				EB0AC5AA1D96D34000771A5F /* MapController.swift */,
 				EB0AC5AC1D96D34000771A5F /* Main.storyboard */,
@@ -291,13 +271,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FFD42A11D97306100230885 /* profile_360.png in Resources */,
 				EB0AC5B31D96D34000771A5F /* LaunchScreen.storyboard in Resources */,
 				EB0AC5B01D96D34000771A5F /* Assets.xcassets in Resources */,
 				EB0AC5AE1D96D34000771A5F /* Main.storyboard in Resources */,
-				3FFD429F1D97306100230885 /* history_360.png in Resources */,
-				3FFD42A01D97306100230885 /* map_360.png in Resources */,
-				3FFD42961D9728D300230885 /* profile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
