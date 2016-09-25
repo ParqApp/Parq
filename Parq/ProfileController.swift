@@ -23,8 +23,6 @@ class ProfileController: UIViewController {
         self.profileImageView.clipsToBounds = true;
         self.profileImageView.layer.borderWidth = 3.0;
         self.profileImageView.layer.borderColor = UIColor.white.cgColor;
-        
-        self.view.sendSubview(toBack: image)
     }
     
     override func didReceiveMemoryWarning() {
