@@ -42,7 +42,7 @@ class MapController: UIViewController, GMSMapViewDelegate {
     }
     
     func mapView(_ mapView: GMSMapView!, didTap marker: GMSMarker!) -> Bool {
-        print("hello")
+        self.performSegue(withIdentifier:"Detail", sender: self)
         return true
     }
 
