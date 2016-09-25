@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FFD42941D97234700230885 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD42931D97234700230885 /* ProfileController.swift */; };
+		3FFD42A41D975A6900230885 /* ParkingMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD42A31D975A6900230885 /* ParkingMeter.swift */; };
 		EB0AC5A91D96D34000771A5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0AC5A81D96D34000771A5F /* AppDelegate.swift */; };
 		EB0AC5AB1D96D34000771A5F /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0AC5AA1D96D34000771A5F /* MapController.swift */; };
 		EB0AC5AE1D96D34000771A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0AC5AC1D96D34000771A5F /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		2701EBBAC7F7F367D38E7078 /* Pods-Parq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parq/Pods-Parq.debug.xcconfig"; sourceTree = "<group>"; };
 		3FFD42931D97234700230885 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		3FFD42A31D975A6900230885 /* ParkingMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingMeter.swift; sourceTree = "<group>"; };
 		4A29D672389C5A708BFF26E8 /* Pods-ParqTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParqTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParqTests/Pods-ParqTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D126380AAFC80FB0B5A858C /* Pods-Parq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parq.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parq/Pods-Parq.release.xcconfig"; sourceTree = "<group>"; };
 		4EF03B5FA505056B23664A97 /* Pods-ParqUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParqUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParqUITests/Pods-ParqUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FFD42A21D975A2F00230885 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FFD42A31D975A6900230885 /* ParkingMeter.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		A3BFE7C1C133FEF209798418 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +137,7 @@
 		EB0AC5A71D96D34000771A5F /* Parq */ = {
 			isa = PBXGroup;
 			children = (
+				3FFD42A21D975A2F00230885 /* Models */,
 				EB0AC5A81D96D34000771A5F /* AppDelegate.swift */,
 				EB0AC5AA1D96D34000771A5F /* MapController.swift */,
 				EB0AC5AC1D96D34000771A5F /* Main.storyboard */,
@@ -423,6 +434,7 @@
 			files = (
 				EB0AC5AB1D96D34000771A5F /* MapController.swift in Sources */,
 				EB0AC5A91D96D34000771A5F /* AppDelegate.swift in Sources */,
+				3FFD42A41D975A6900230885 /* ParkingMeter.swift in Sources */,
 				3FFD42941D97234700230885 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

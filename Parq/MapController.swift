@@ -12,6 +12,8 @@ import GoogleMaps
 class MapController: UIViewController, GMSMapViewDelegate {
     
 
+    @IBOutlet weak var mySubview: UIView!
+    @IBOutlet var mapView: GMSMapView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,10 +41,13 @@ class MapController: UIViewController, GMSMapViewDelegate {
         marker.title = "Sydney"
         marker.snippet = "Australia"
         marker.map = mapView
+        
+        
     }
     
     func mapView(_ mapView: GMSMapView!, didTap marker: GMSMarker!) -> Bool {
-        print("hello")
+        self.performSegue(withIdentifier: "detail", sender: self)
+        print("marker has been clicked")
         return true
     }
 
