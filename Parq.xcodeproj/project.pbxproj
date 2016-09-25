@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FA8FE2B1D97862E0062880D /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FE2A1D97862E0062880D /* HistoryController.swift */; };
+		3FE219151D978CA3003D20A2 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE219141D978CA3003D20A2 /* HistoryCell.swift */; };
 		3FFD42941D97234700230885 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD42931D97234700230885 /* ProfileController.swift */; };
 		3FFD42A41D975A6900230885 /* ParkingMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD42A31D975A6900230885 /* ParkingMeter.swift */; };
 		EB0AC5A91D96D34000771A5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0AC5A81D96D34000771A5F /* AppDelegate.swift */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		2701EBBAC7F7F367D38E7078 /* Pods-Parq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parq/Pods-Parq.debug.xcconfig"; sourceTree = "<group>"; };
+		3FA8FE2A1D97862E0062880D /* HistoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+		3FE219141D978CA3003D20A2 /* HistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
 		3FFD42931D97234700230885 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		3FFD42A31D975A6900230885 /* ParkingMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingMeter.swift; sourceTree = "<group>"; };
 		4A29D672389C5A708BFF26E8 /* Pods-ParqTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParqTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParqTests/Pods-ParqTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				EB0AC5B11D96D34000771A5F /* LaunchScreen.storyboard */,
 				EB0AC5B41D96D34000771A5F /* Info.plist */,
 				3FFD42931D97234700230885 /* ProfileController.swift */,
+				3FA8FE2A1D97862E0062880D /* HistoryController.swift */,
+				3FE219141D978CA3003D20A2 /* HistoryCell.swift */,
 			);
 			path = Parq;
 			sourceTree = "<group>";
@@ -432,6 +438,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE219151D978CA3003D20A2 /* HistoryCell.swift in Sources */,
+				3FA8FE2B1D97862E0062880D /* HistoryController.swift in Sources */,
 				EB0AC5AB1D96D34000771A5F /* MapController.swift in Sources */,
 				EB0AC5A91D96D34000771A5F /* AppDelegate.swift in Sources */,
 				3FFD42A41D975A6900230885 /* ParkingMeter.swift in Sources */,
