@@ -11,14 +11,13 @@ import UIKit
 class HistoryController: UITableViewController {
 
     // These strings will be the data for the table view cells
-    let previousTransactions: [String] = ["Horse", "Cow", "Camel", "Sheep", "Goat"]
-    
+    let previousTransactions: [String] = ["goat","dog"]
+
     let cellReuseIdentifier = "cell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.delegate = self
-        tableView.dataSource = self
+
 
     }
     
