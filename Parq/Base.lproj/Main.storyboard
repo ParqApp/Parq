@@ -35,20 +35,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TgK-hu-bem">
-                                <frame key="frameInset" minX="38" minY="474" width="299" height="62"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="parqaustinmain" translatesAutoresizingMaskIntoConstraints="NO" id="tjE-aX-jKl">
+                                <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="Login Button"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7EY-iM-QUP">
+                                <frame key="frameInset" minX="52" minY="480" width="276" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="KYi-5h-XNp" kind="push" id="8qS-tO-9Fs"/>
+                                    <segue destination="KYi-5h-XNp" kind="push" id="k2p-Mp-e4T"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihh-V4-TmU">
-                                <frame key="frameInset" minX="38" minY="560" width="299" height="62"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0E-Ga-0gV">
+                                <frame key="frameInset" minX="77" minY="571" width="224" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="Signup Button"/>
                                 <connections>
-                                    <segue destination="Gfc-ap-X3U" kind="push" id="J1X-1S-htb"/>
+                                    <segue destination="Gfc-ap-X3U" kind="push" id="weT-gU-Xpb"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="fY1-gc-LRg">
@@ -78,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="-1512.5" y="-138.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Login Controller-->
         <scene sceneID="ezh-b6-0Pg">
             <objects>
-                <viewController id="KYi-5h-XNp" sceneMemberID="viewController">
+                <viewController id="KYi-5h-XNp" customClass="LoginController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8hq-CC-g0R"/>
                         <viewControllerLayoutGuide type="bottom" id="Xma-U8-uog"/>
@@ -142,18 +144,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvi-4z-g2V">
-                                <frame key="frameInset" minX="117" minY="28" width="141" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tbq-Ln-dC4">
-                                <frame key="frameInset" minX="38" minY="211" width="299" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2666666667" green="0.85882352939999995" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" keyboardAppearance="light" returnKeyType="go" secureTextEntry="YES"/>
                             </textField>
@@ -348,18 +343,22 @@
                         <color key="barTintColor" red="0.2666666667" green="0.85882352939999995" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="2wf-ca-BJD" kind="relationship" relationship="rootViewController" id="d3y-bv-LeP"/>
+                        <segue destination="ZTg-q9-y0M" kind="relationship" relationship="rootViewController" id="Be3-wM-McC"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kfy-Bz-Dwy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="304" y="-635"/>
         </scene>
-        <!--Table View Controller-->
-        <scene sceneID="yva-JT-RyY">
+        <!--View Controller-->
+        <scene sceneID="xLL-9i-vNi">
             <objects>
-                <tableViewController id="2wf-ca-BJD" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Sn9-5h-EaX">
+                <viewController id="ZTg-q9-y0M" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3dV-wk-tgk"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pvo-wz-TfM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aLR-kR-cyw">
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -430,7 +429,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qox-ud-dYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="818" y="-636"/>
+            <point key="canvasLocation" x="800.5" y="-636.5"/>
         </scene>
         <!--Profile-->
         <scene sceneID="nmF-UG-1Az">
@@ -450,7 +449,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ay8-Ts-6Qs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="304" y="916"/>
+            <point key="canvasLocation" x="82" y="1006"/>
         </scene>
         <!--Profile Controller-->
         <scene sceneID="zFZ-4b-5p9">
@@ -637,12 +636,12 @@
     </scenes>
     <resources>
         <image name="Login Button" width="299" height="62"/>
-        <image name="Logo" width="192" height="192"/>
         <image name="Signup Button" width="299" height="62"/>
-        <image name="disclosure" width="8" height="13"/>
+        <image name="disclosure" width="8" height="13"/>><image name="historyTable" width="540" height="960"/>
         <image name="history_360.png" width="27" height="25"/>
         <image name="location" width="32" height="40"/>
         <image name="map_360.png" width="25" height="26"/>
+        <image name="parqaustinmain" width="540" height="960"/>
         <image name="profile.jpg" width="254" height="254"/>
         <image name="profile_360.png" width="25" height="25"/>
         <image name="settings" width="28" height="29"/>
