@@ -9,13 +9,18 @@
 import UIKit
 
 class ParkingMeter {
+    
     // MARK: Properties
     
+    var id: Int
     var name: String
     var price: Double
     var address: String
     
-    init(name: String, price: Double, address: String) {
+    // MARK: Initialization
+    
+    init(id: Int, price: Double, address: String, name: String) {
+        self.id = id
         self.name = name
         self.price = price
         self.address = address
