@@ -46,8 +46,7 @@ class MapController: UIViewController, GMSMapViewDelegate {
     }
     
     func mapView(_ mapView: GMSMapView!, didTap marker: GMSMarker!) -> Bool {
-        self.performSegue(withIdentifier: "detail", sender: self)
-        print("marker has been clicked")
+        self.performSegue(withIdentifier:"Detail", sender: self)
         return true
     }
 
